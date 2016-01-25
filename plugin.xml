@@ -6,8 +6,8 @@
     </js-module>
     <platform name="android">
 
-		<framework src="com.android.support:support-v4:7.5.0" />
-		<framework src="com.google.android.gms:play-services:7.5.0" />
+		<framework src="com.android.support:support-v13:23+" />
+		<framework src="com.google.android.gms:play-services-gcm:+" />
 		
 		<config-file parent="/manifest/application" target="AndroidManifest.xml">
 			<activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
